@@ -19,7 +19,7 @@ drawingsData.forEach((day, index) => {
 
     const date = document.createElement("h2");
     date.id = `day-${index + 1}-heading`;
-    date.innerText = `Day ${index + 1}  (${day.date})`;
+    date.innerText = `Day ${index + 1} - ${themes[index]} (${day.date})`;
     dateRow.appendChild(date);
     gallery.appendChild(dateRow);
 
