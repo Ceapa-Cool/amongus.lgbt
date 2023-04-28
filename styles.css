@@ -1,0 +1,129 @@
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+    background-color: #f9eaf7;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    position: relative;
+    z-index: 1;
+}
+
+h1,
+h2 {
+    font-weight: 700;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #b80084;
+}
+
+h2 {
+    text-align: center;
+    color: #89165a;
+    margin-bottom: 10px;
+}
+
+#gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.drawing {
+    flex: 1;
+    min-width: 300px;
+    border: 1px solid #b80084;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    background-color: #fff;
+    animation-name: bounceIn;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2), 0 8px 12px rgba(0, 0, 0, 0.1);
+}
+
+.drawing:hover {
+    transform: scale(1.1);
+}
+
+
+.drawing img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 8px;
+}
+
+.date {
+    font-weight: bold;
+}
+
+.date-row {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+
+.day-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.artist {
+    color: #89165a;
+    font-weight: bold;
+}
+
+div,
+.artist,
+h1,
+h2 {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+img {
+    -webkit-user-drag: none;
+    -moz-user-drag: none;
+    -ms-user-drag: none;
+    user-drag: none;
+    pointer-events: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+@keyframes bounceIn {
+
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+        transform: translateY(0);
+    }
+
+    40% {
+        transform: translateY(-30px);
+    }
+
+    60% {
+        transform: translateY(-15px);
+    }
+}
+

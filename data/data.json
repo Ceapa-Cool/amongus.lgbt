@@ -1,0 +1,15 @@
+[
+    {
+        "date": "2023-04-24",
+        "drawings": [
+            {
+                "image": "https://cdn.pixabay.com/photo/2021/02/12/13/43/among-us-6008615__340.png",
+                "artist": "John Doe"
+            },
+            {
+                "image": "https://cdn.pixabay.com/photo/2021/02/12/13/43/among-us-6008615__340.png",
+                "artist": "Jane Smith"
+            }
+        ]
+    }
+]
