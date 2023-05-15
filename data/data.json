@@ -27,5 +27,30 @@
                 "artist": "クインシー (小獅)#6822"
             }
         ]
+    },
+    {
+        "date": "2023-05-07",
+        "drawings": [
+            {
+                "image": "https://cdn.discordapp.com/attachments/1104027558388969472/1104819361321074798/Untitled114_20230507221039.png",
+                "artist": "strikernd#9320"
+            },
+            {
+                "image": "https://cdn.discordapp.com/attachments/1104027558388969472/1104848864852328548/brazil.png",
+                "artist": "Filip#0001"
+            },
+            {
+                "image": "https://cdn.discordapp.com/attachments/1104027558388969472/1105072914476322906/image.png",
+                "artist": "BlossomNoSleep#8728"
+            },
+            {
+                "image": "https://cdn.discordapp.com/attachments/1104027558388969472/1105075973130555422/IMG_7949.png",
+                "artist": "Nora2605#3789"
+            },
+            {
+                "image": "https://cdn.veeps.moe/zXts7R.png",
+                "artist": "クインシー (小獅)#6822"
+            }
+        ]
     }
 ]
